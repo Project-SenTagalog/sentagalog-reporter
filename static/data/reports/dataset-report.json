@@ -1,0 +1,55 @@
+{
+    "dataset_length": {
+        "A": 2023,
+        "B": 1216,
+        "C": 1002,
+        "AB": 821,
+        "AC": 465,
+        "BC": 488,
+        "ABC": 370
+    },
+    "dataset_tally": {
+        "A": {
+            "neutral": 583,
+            "negative": 474,
+            "positive": 518,
+            "indeterminate": 448
+        },
+        "B": {
+            "neutral": 285,
+            "negative": 334,
+            "positive": 272,
+            "indeterminate": 325
+        },
+        "C": {
+            "neutral": 239,
+            "negative": 337,
+            "positive": 144,
+            "indeterminate": 282
+        },
+        "AB": {
+            "neutral": 221,
+            "negative": 226,
+            "positive": 202,
+            "indeterminate": 172
+        },
+        "AC": {
+            "neutral": 172,
+            "negative": 213,
+            "positive": 22,
+            "indeterminate": 58
+        },
+        "BC": {
+            "neutral": 158,
+            "negative": 225,
+            "positive": 17,
+            "indeterminate": 88
+        },
+        "ABC": {
+            "neutral": 135,
+            "negative": 174,
+            "positive": 9,
+            "indeterminate": 52
+        }
+    }
+}
