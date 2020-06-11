@@ -29,7 +29,11 @@ export default new Router({
       path: "/ttest-expc-methods", 
       name: "TTestExpCMethods", 
       component: require('@/components/TTestExpCMethods').default
-
+    }, 
+    {
+      path: "/ttest-expa-expc", 
+      name: "TTestExpAExpC", 
+      component: require('@/components/TTestExpAExpC').default
     }
   ]
 })

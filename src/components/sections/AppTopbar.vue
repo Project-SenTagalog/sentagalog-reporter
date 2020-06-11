@@ -7,6 +7,8 @@
             </div> 
             <div class="column column-80" align="right">
               <ul class="nav">
+                <li v-if="dataset_get_state.loading">Loading {{dataset_get_state.load_index}} of {{dataset_get_state.load_amount}} </li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
                 <li><router-link to="/"><a class="link">Home</a></router-link></li>
               </ul>
             </div>
@@ -14,6 +16,16 @@
         </div>
     </div>
 </template>
+
+<script>
+  export default {
+    data : () => {
+      return {
+          dataset_get_state: window.state
+      }
+    }
+  }
+</script>
 
 <style lang="scss">
    .topbar {

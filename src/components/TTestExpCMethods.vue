@@ -66,7 +66,7 @@
 
     function getAccuracyScores(reports, method, combination) {
         let report = reports[method]
-        let combinations = report.combinations; 
+        console.log(report)
         let scores = []
         for(let fold in combinations[combination]) {
             scores.push(combinations[combination][fold].accuracy);

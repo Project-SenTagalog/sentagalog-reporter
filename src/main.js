@@ -6,6 +6,13 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+window.state = {
+  getting: false,
+  loading: false,
+  load_index : 0,
+  load_amount: 0
+}
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

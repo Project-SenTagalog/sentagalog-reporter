@@ -5,6 +5,7 @@
       <li><router-link to="raw-report-viewer">Raw Report Viewer</router-link></li>
       <li><router-link to="ttest-combinations">T Test (Combinations)</router-link></li>
       <li><router-link to="ttest-expc-methods">T Test (Exp. C Methods)</router-link></li>
+      <li><router-link to="ttest-expa-expc">T Test (Exp. A vs Exp. C)</router-link></li>
     </ul>
   </div>
 </template>
@@ -14,7 +15,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-    
+      d
     }
   }
 }

@@ -9,6 +9,11 @@
   import AppTopbar from '@/components/sections/AppTopbar'
   export default {
     name: 'App',
+    data : () => {
+      return {
+        dataset_get_state : window.state
+      }
+    },
     components : {
       AppTopbar
     }

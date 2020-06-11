@@ -14,32 +14,32 @@
     "combinations": {
         "[0, 0, 0]": {
             "1": {
-                "accuracy": 0.75,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         2,
                         0
                     ],
                     [
-                        1,
-                        1
+                        2,
+                        0
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 0.0
             },
             "2": {
-                "accuracy": 0.5,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
-                        1,
-                        1
+                        2,
+                        0
                     ],
                     [
-                        1,
-                        1
+                        0,
+                        2
                     ]
                 ],
-                "f1_score": 0.5
+                "f1_score": 1.0
             },
             "3": {
                 "accuracy": 1.0,
@@ -56,15 +56,15 @@
                 "f1_score": 1.0
             },
             "4": {
-                "accuracy": 0.75,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
-                        2,
-                        0
+                        0,
+                        2
                     ],
                     [
-                        1,
-                        1
+                        0,
+                        2
                     ]
                 ],
                 "f1_score": 0.6666666666666666
@@ -73,45 +73,59 @@
                 "accuracy": 0.5,
                 "confusion_matrix": [
                     [
-                        1,
-                        1
-                    ],
-                    [
-                        1,
-                        1
-                    ]
-                ],
-                "f1_score": 0.5
-            },
-            "6": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
+                        0,
+                        2
                     ],
                     [
                         0,
                         2
                     ]
                 ],
-                "f1_score": 1.0
+                "f1_score": 0.6666666666666666
             },
-            "7": {
-                "accuracy": 0.75,
+            "6": {
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         2,
                         0
                     ],
                     [
+                        2,
+                        0
+                    ]
+                ],
+                "f1_score": 0.0
+            },
+            "7": {
+                "accuracy": 0.25,
+                "confusion_matrix": [
+                    [
+                        0,
+                        2
+                    ],
+                    [
                         1,
                         1
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 0.4
             },
             "8": {
+                "accuracy": 0.0,
+                "confusion_matrix": [
+                    [
+                        0,
+                        1
+                    ],
+                    [
+                        1,
+                        0
+                    ]
+                ],
+                "f1_score": 0.0
+            },
+            "9": {
                 "accuracy": 1.0,
                 "confusion_matrix": [
                     [
@@ -125,7 +139,7 @@
                 ],
                 "f1_score": 1.0
             },
-            "9": {
+            "10": {
                 "accuracy": 0.5,
                 "confusion_matrix": [
                     [
@@ -138,20 +152,6 @@
                     ]
                 ],
                 "f1_score": 0.6666666666666666
-            },
-            "10": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        1,
-                        0
-                    ],
-                    [
-                        0,
-                        1
-                    ]
-                ],
-                "f1_score": 1.0
             }
         },
         "[1, 0, 0]": {
@@ -170,46 +170,46 @@
                 "f1_score": 0.6666666666666666
             },
             "2": {
+                "accuracy": 0.75,
+                "confusion_matrix": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.8
+            },
+            "3": {
                 "accuracy": 0.5,
                 "confusion_matrix": [
                     [
-                        0,
-                        2
+                        1,
+                        1
                     ],
                     [
-                        0,
-                        2
+                        1,
+                        1
+                    ]
+                ],
+                "f1_score": 0.5
+            },
+            "4": {
+                "accuracy": 0.75,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        1,
+                        1
                     ]
                 ],
                 "f1_score": 0.6666666666666666
-            },
-            "3": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 1.0
-            },
-            "4": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 1.0
             },
             "5": {
                 "accuracy": 0.75,
@@ -226,20 +226,6 @@
                 "f1_score": 0.8
             },
             "6": {
-                "accuracy": 0.75,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        1,
-                        1
-                    ]
-                ],
-                "f1_score": 0.6666666666666666
-            },
-            "7": {
                 "accuracy": 1.0,
                 "confusion_matrix": [
                     [
@@ -252,6 +238,20 @@
                     ]
                 ],
                 "f1_score": 1.0
+            },
+            "7": {
+                "accuracy": 0.75,
+                "confusion_matrix": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.8
             },
             "8": {
                 "accuracy": 0.5,
@@ -268,32 +268,32 @@
                 "f1_score": 0.6666666666666666
             },
             "9": {
-                "accuracy": 0.5,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
                         1,
                         0
                     ],
                     [
-                        1,
-                        0
+                        0,
+                        1
                     ]
                 ],
-                "f1_score": 0.0
+                "f1_score": 1.0
             },
             "10": {
-                "accuracy": 0.5,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
-                        0,
-                        1
+                        1,
+                        0
                     ],
                     [
                         0,
                         1
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 1.0
             }
         },
         "[0, 1, 0]": {
@@ -312,34 +312,6 @@
                 "f1_score": 0.5
             },
             "2": {
-                "accuracy": 0.5,
-                "confusion_matrix": [
-                    [
-                        0,
-                        2
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 0.6666666666666666
-            },
-            "3": {
-                "accuracy": 0.0,
-                "confusion_matrix": [
-                    [
-                        0,
-                        2
-                    ],
-                    [
-                        2,
-                        0
-                    ]
-                ],
-                "f1_score": 0.0
-            },
-            "4": {
                 "accuracy": 0.75,
                 "confusion_matrix": [
                     [
@@ -352,6 +324,34 @@
                     ]
                 ],
                 "f1_score": 0.8
+            },
+            "3": {
+                "accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 1.0
+            },
+            "4": {
+                "accuracy": 0.75,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
             },
             "5": {
                 "accuracy": 0.75,
@@ -368,18 +368,18 @@
                 "f1_score": 0.8
             },
             "6": {
-                "accuracy": 0.75,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         2,
                         0
                     ],
                     [
-                        1,
-                        1
+                        2,
+                        0
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 0.0
             },
             "7": {
                 "accuracy": 1.0,
@@ -396,78 +396,50 @@
                 "f1_score": 1.0
             },
             "8": {
-                "accuracy": 0.5,
+                "accuracy": 0.0,
                 "confusion_matrix": [
                     [
                         0,
                         1
                     ],
                     [
-                        0,
-                        1
+                        1,
+                        0
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 0.0
             },
             "9": {
-                "accuracy": 1.0,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         1,
                         0
                     ],
                     [
-                        0,
-                        1
+                        1,
+                        0
                     ]
                 ],
-                "f1_score": 1.0
+                "f1_score": 0.0
             },
             "10": {
-                "accuracy": 0.5,
+                "accuracy": 0.0,
                 "confusion_matrix": [
                     [
                         0,
                         1
                     ],
                     [
-                        0,
-                        1
+                        1,
+                        0
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 0.0
             }
         },
         "[0, 0, 1]": {
             "1": {
-                "accuracy": 0.5,
-                "confusion_matrix": [
-                    [
-                        0,
-                        2
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 0.6666666666666666
-            },
-            "2": {
-                "accuracy": 0.25,
-                "confusion_matrix": [
-                    [
-                        1,
-                        1
-                    ],
-                    [
-                        2,
-                        0
-                    ]
-                ],
-                "f1_score": 0.0
-            },
-            "3": {
                 "accuracy": 0.75,
                 "confusion_matrix": [
                     [
@@ -481,33 +453,61 @@
                 ],
                 "f1_score": 0.6666666666666666
             },
-            "4": {
-                "accuracy": 0.25,
+            "2": {
+                "accuracy": 0.75,
                 "confusion_matrix": [
                     [
                         1,
                         1
                     ],
                     [
-                        2,
-                        0
+                        0,
+                        2
                     ]
                 ],
-                "f1_score": 0.0
+                "f1_score": 0.8
+            },
+            "3": {
+                "accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 1.0
+            },
+            "4": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
             },
             "5": {
-                "accuracy": 0.25,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         1,
                         1
                     ],
                     [
-                        2,
-                        0
+                        1,
+                        1
                     ]
                 ],
-                "f1_score": 0.0
+                "f1_score": 0.5
             },
             "6": {
                 "accuracy": 0.75,
@@ -524,18 +524,18 @@
                 "f1_score": 0.6666666666666666
             },
             "7": {
-                "accuracy": 0.75,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
                         2,
                         0
                     ],
                     [
-                        1,
-                        1
+                        0,
+                        2
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 1.0
             },
             "8": {
                 "accuracy": 0.5,
@@ -566,78 +566,36 @@
                 "f1_score": 1.0
             },
             "10": {
-                "accuracy": 0.0,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         0,
                         1
                     ],
                     [
-                        1,
-                        0
+                        0,
+                        1
                     ]
                 ],
-                "f1_score": 0.0
+                "f1_score": 0.6666666666666666
             }
         },
         "[1, 1, 1]": {
             "1": {
-                "accuracy": 0.75,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
                         2,
                         0
                     ],
                     [
-                        1,
-                        1
+                        0,
+                        2
                     ]
                 ],
-                "f1_score": 0.6666666666666666
+                "f1_score": 1.0
             },
             "2": {
-                "accuracy": 0.5,
-                "confusion_matrix": [
-                    [
-                        1,
-                        1
-                    ],
-                    [
-                        1,
-                        1
-                    ]
-                ],
-                "f1_score": 0.5
-            },
-            "3": {
-                "accuracy": 0.75,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        1,
-                        1
-                    ]
-                ],
-                "f1_score": 0.6666666666666666
-            },
-            "4": {
-                "accuracy": 0.5,
-                "confusion_matrix": [
-                    [
-                        0,
-                        2
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 0.6666666666666666
-            },
-            "5": {
                 "accuracy": 0.75,
                 "confusion_matrix": [
                     [
@@ -650,6 +608,48 @@
                     ]
                 ],
                 "f1_score": 0.8
+            },
+            "3": {
+                "accuracy": 0.75,
+                "confusion_matrix": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.8
+            },
+            "4": {
+                "accuracy": 0.25,
+                "confusion_matrix": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        2,
+                        0
+                    ]
+                ],
+                "f1_score": 0.0
+            },
+            "5": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                "f1_score": 0.5
             },
             "6": {
                 "accuracy": 1.0,
@@ -666,25 +666,39 @@
                 "f1_score": 1.0
             },
             "7": {
-                "accuracy": 0.75,
+                "accuracy": 1.0,
                 "confusion_matrix": [
                     [
-                        1,
-                        1
+                        2,
+                        0
                     ],
                     [
                         0,
                         2
                     ]
                 ],
-                "f1_score": 0.8
+                "f1_score": 1.0
             },
             "8": {
-                "accuracy": 0.0,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         0,
                         1
+                    ],
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
+            },
+            "9": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        1,
+                        0
                     ],
                     [
                         1,
@@ -693,121 +707,51 @@
                 ],
                 "f1_score": 0.0
             },
-            "9": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        1,
-                        0
-                    ],
-                    [
-                        0,
-                        1
-                    ]
-                ],
-                "f1_score": 1.0
-            },
             "10": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        1,
-                        0
-                    ],
-                    [
-                        0,
-                        1
-                    ]
-                ],
-                "f1_score": 1.0
-            }
-        },
-        "[0, 1, 1]": {
-            "1": {
-                "accuracy": 0.25,
-                "confusion_matrix": [
-                    [
-                        0,
-                        2
-                    ],
-                    [
-                        1,
-                        1
-                    ]
-                ],
-                "f1_score": 0.4
-            },
-            "2": {
-                "accuracy": 0.75,
-                "confusion_matrix": [
-                    [
-                        1,
-                        1
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 0.8
-            },
-            "3": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 1.0
-            },
-            "4": {
-                "accuracy": 1.0,
-                "confusion_matrix": [
-                    [
-                        2,
-                        0
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 1.0
-            },
-            "5": {
-                "accuracy": 0.75,
-                "confusion_matrix": [
-                    [
-                        1,
-                        1
-                    ],
-                    [
-                        0,
-                        2
-                    ]
-                ],
-                "f1_score": 0.8
-            },
-            "6": {
                 "accuracy": 0.5,
                 "confusion_matrix": [
                     [
                         1,
-                        1
+                        0
                     ],
                     [
                         1,
-                        1
+                        0
                     ]
                 ],
-                "f1_score": 0.5
+                "f1_score": 0.0
+            }
+        },
+        "[0, 1, 1]": {
+            "1": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
             },
-            "7": {
+            "2": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
+            },
+            "3": {
                 "accuracy": 0.75,
                 "confusion_matrix": [
                     [
@@ -820,6 +764,62 @@
                     ]
                 ],
                 "f1_score": 0.6666666666666666
+            },
+            "4": {
+                "accuracy": 0.5,
+                "confusion_matrix": [
+                    [
+                        0,
+                        2
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 0.6666666666666666
+            },
+            "5": {
+                "accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 1.0
+            },
+            "6": {
+                "accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 1.0
+            },
+            "7": {
+                "accuracy": 1.0,
+                "confusion_matrix": [
+                    [
+                        2,
+                        0
+                    ],
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "f1_score": 1.0
             },
             "8": {
                 "accuracy": 0.5,
@@ -850,11 +850,11 @@
                 "f1_score": 1.0
             },
             "10": {
-                "accuracy": 0.0,
+                "accuracy": 0.5,
                 "confusion_matrix": [
                     [
-                        0,
-                        1
+                        1,
+                        0
                     ],
                     [
                         1,
@@ -866,12 +866,12 @@
         }
     },
     "feature_size": {
-        "[0, 0, 0]": 101,
-        "[1, 0, 0]": 101,
-        "[0, 1, 0]": 101,
-        "[0, 0, 1]": 101,
-        "[1, 1, 1]": 101,
-        "[0, 1, 1]": 101
+        "[0, 0, 0]": 374,
+        "[1, 0, 0]": 375,
+        "[0, 1, 0]": 352,
+        "[0, 0, 1]": 594,
+        "[1, 1, 1]": 569,
+        "[0, 1, 1]": 568
     },
     "txs": {
         "[0, 0, 0]": {
@@ -907,22 +907,22 @@
     ],
     "summary": {
         "[0, 0, 0]": {
-            "acc": 0.775
+            "acc": 0.575
         },
         "[1, 0, 0]": {
-            "acc": 0.725
+            "acc": 0.775
         },
         "[0, 1, 0]": {
-            "acc": 0.625
+            "acc": 0.575
         },
         "[0, 0, 1]": {
-            "acc": 0.5
+            "acc": 0.725
         },
         "[1, 1, 1]": {
-            "acc": 0.7
+            "acc": 0.675
         },
         "[0, 1, 1]": {
-            "acc": 0.65
+            "acc": 0.725
         }
     }
 }

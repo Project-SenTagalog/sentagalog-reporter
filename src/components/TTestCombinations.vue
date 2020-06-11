@@ -72,11 +72,14 @@
             isValid(sampleA, sampleB) {
                 return ttest(sampleA, sampleB, { mu: 0 }).valid();
             },
+            getDatasetCallback(i) {
+                
+            },
             average
         },
         async mounted() {
-            let data = await getAllDatasets();
-            this.data = data;
+            let data = await getAllDatasets(this.getDatasetCallback);
+            this.data = window.state.datasets;
             this.getFoldGrid();
         }
     }
